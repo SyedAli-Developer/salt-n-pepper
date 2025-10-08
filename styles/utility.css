@@ -1,0 +1,119 @@
+@font-face {
+    font-family: "inter";
+    src: url(../Assets/fonts/Inter/static/Inter_18pt-Regular.ttf);
+}
+@font-face {
+    font-family: "apercu";
+    src: url(../Assets/fonts/apercu/apercu_regular_pro.otf);
+}
+
+:root{
+    --bg-red:#ed1c24;
+    --bg-black:#000;
+    --bg-gray:#0f0f0f;
+    --highlight-text:#d81310;
+    --white-text:#ffffff;
+    --gray-text:#b4b4b4;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: inter;
+}
+html{
+    font-size: 62.5%;
+}
+
+/* utility classes */
+
+/* flex started */
+
+.d-flex{
+    display: flex;
+}
+.j-center{
+    justify-content: center;
+}
+.j-around{
+    justify-content: space-around;
+}
+.j-between{
+    justify-content: space-between;
+}
+.j-evenly{
+    justify-content: space-evenly;
+}
+.align-center{
+    align-items: center;
+}
+.flex-wrap{
+    flex-wrap: wrap;
+}
+.gap-1{
+    gap: 5px;
+}
+.gap-2{
+    gap: 10px;
+}
+.gap-3{
+    gap: 15px;
+}
+.gap-4{
+    gap: 20px;
+}
+.gap-5{
+    gap: 25px;
+}
+
+/* flex ended */
+
+.text-center{
+    text-align: center;
+}
+
+
+
+
+/* utility classes ended */
+
+
+
+/* navbar start from here..... */
+nav{
+    background-color: var(--bg-black);
+    height: 90px;
+}
+.logo>img{
+    width: 160px;
+}
+.nav-items>li{
+    list-style: none;
+}
+.nav-items>li>a{
+    font-size: 1.8rem;
+    color: var(--white-text);
+    text-decoration: none;
+}
+#f-btn{
+    background-color: transparent;
+    border: 1px solid white;
+    padding: 12px 15px;
+    border-radius: 25px;
+    font-size: 1.5rem;
+}
+#order-btn{
+    background-color: var(--bg-red);
+    padding: 12px 15px;
+    border: 1px solid var(--bg-red);
+    border-radius: 25px;
+    font-size: 1.5rem;
+}
+.i-container{
+    background-color: white;
+    color: var(--bg-red);
+    border-radius: 25px;
+    padding: 5px;
+    
+}
+
