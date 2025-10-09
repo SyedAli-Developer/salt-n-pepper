@@ -83,6 +83,7 @@ html{
 nav{
     background-color: var(--bg-black);
     height: 90px;
+    width: 100%;
 }
 .logo>img{
     width: 160px;
@@ -117,3 +118,109 @@ nav{
     
 }
 
+
+
+
+/* footer started */
+footer{
+    background-color: var(--bg-gray);
+    color: white;
+    padding: 50px 120px;
+    display: flex;
+    float: row wrap;
+    justify-content: center;
+    gap: 40px;
+}
+#foot1{
+    width: 40%;
+}
+#foot1>img{
+    width: 150px;
+    
+}
+#foot1>p{
+    color: var(--gray-text);
+    font-size: 1.4rem;
+    margin: 30px 0px;
+}
+#foot1>p>a{
+    color: var(--gray-text);
+    font-size: 1.4rem;
+    text-decoration: none;
+    
+}
+#foot2{
+    padding-top: 5px;
+    width: 20%;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    gap: 20px;
+    font-weight: 500;
+    
+}
+#foot2>h2{
+    font-size: 1.8rem;
+}
+#foot2>a{
+    color: var(--gray-text);
+    font-size: 1.2rem;
+    text-decoration: none;
+}
+#foot3{
+    width: 20%;
+    display: flex;
+    flex-direction: column;
+    
+    gap: 15px;
+    
+}
+#foot3>h2{
+    color: white;
+    font-weight: 500;
+    font-size: 1.6rem;
+}
+#foot3>p{
+    color: var(--gray-text);
+    font-size: 1.4rem;
+}
+#foot3>a{
+    font-size: 1.4rem;
+    color: var(--gray-text);
+    text-decoration: none;
+}
+#foot4{
+    width: 20%;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
+#foot4>div{
+    margin: 25px auto;
+    width: 100%;
+}
+#foot4 a{
+    color: white;
+}
+#foot4>div span{
+    background-color: var(--bg-red);
+    padding: 10px;
+    border-radius: 25px;
+    font-size: 1.5rem;
+    margin: 3px;
+    cursor: pointer;
+    
+}
+#foot4 img{
+    width: 75%;
+    margin: 5px auto;
+    cursor: pointer;
+}
+
+.footer{
+    background-color: #000;
+    color: white;
+    justify-content: space-between;
+    padding: 10px 100px;
+    font-size: 1.5em;
+}
