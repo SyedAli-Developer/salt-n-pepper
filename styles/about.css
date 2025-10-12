@@ -1,0 +1,331 @@
+@font-face {
+    font-family: "inter";
+    src: url(../Assets/fonts/Inter/static/Inter_18pt-Regular.ttf);
+}
+
+@font-face {
+    font-family: "apercu";
+    src: url(../Assets/fonts/apercu/apercu_regular_pro.otf);
+}
+
+@font-face {
+    font-family: "futurak";
+    src: url(../Assets/fonts/futurak/futurak.ttf);
+}
+
+@font-face {
+    font-family: "butler";
+    src: url(../Assets/fonts/Butler/Butler_Regular.otf);
+}
+
+:root{
+    --bg-red:#ed1c24;
+    --bg-black:#000;
+    --bg-gray:#0f0f0f;
+    --highlight-text:#d81310;
+    --white-text:#ffffff;
+    --gray-text:#b4b4b4;
+}
+body{
+    background-color: var(--bg-black);
+    color: var(--white-text);
+    text-align: center;
+    
+}
+
+main{
+    padding: 60px;
+    border-top: 0.5px solid gray;
+    font-size: 1.2rem;
+}
+
+/* introduction section started */
+.intro{
+    width: 100%;
+    text-align: center;
+}
+.intro>div{
+    width: 70%;
+    margin: auto;
+
+}
+.intro h1{
+    font-size: 4rem;
+    font-family: bulter;
+    margin: 0px 0px 32px;
+}
+
+.intro p{
+    font-family: apercu;
+    font-size: 1.6rem;
+    color: var(--gray-text);
+    margin: 15px;
+}
+/* introduction section ended */
+
+/* resturant section started */
+.sresturant{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}
+.sresturant>h2{
+    font-family: inter;
+    font-size: 3.2rem;
+    margin: 50px 0px 10px 0px;
+    font-weight: 500;
+}
+.sresturant p{
+    font-family: apercu;
+    font-size: 1.6rem;
+    color: var(--gray-text);
+    margin: 15px;
+}
+.container-perant{
+    display: flex;
+    width: 70%;
+    margin: 30px 0px;
+    gap: 35px;
+}
+.png>img{
+    width: 600px;
+    border-radius: 7px;
+}
+.bold{
+font-family: futurak;
+font-weight: 500;
+font-size: 3.5rem;
+}
+.container-child>h1{
+    text-align: left;
+    font-size: 3rem;
+    font-family: inter;
+    font-weight: 500;
+    margin: 15px 0px;
+}
+.container-child > p{
+    text-align: left;
+    margin: 10px 0px;
+}
+
+
+
+/* resturant section ended */
+
+
+/* franchise section started  */
+
+.franchises{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 60px 0px;
+}
+.franchises>h1{
+    font-family: inter;
+    font-size: 3.2rem;
+    margin: 50px 0px 10px 0px;
+    font-weight: 500;
+}   
+.franchise-parent{
+    width: 70%;
+    display: flex;
+    margin: 30px 0px;
+    gap: 35px;
+}
+.small-bold{
+    font-family: futurak;
+    font-weight: 500;
+    font-size: 3.5rem;
+}
+.franchise-d{
+    text-align: left;
+}
+.franchise-d>h1{
+    font-size: 3rem;
+    font-weight: 700;
+    font-family: inter;
+}
+.franchise-d>p{
+    margin: 10px 0px;
+    font-family: apercu;
+    font-size: 1.6rem;
+    color: var(--gray-text);
+}
+.franchise-png>img{
+    width: 600px;
+    border-radius: 7px;
+
+}
+
+/* franchise section ended */
+
+/* express section started */
+
+.express-section{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 60px 0px; 
+}
+.express-section>h1{
+    font-family: inter;
+    font-size: 3.2rem;
+    margin: 50px 0px 10px 0px;
+    font-weight: 500;
+}
+.Express-parent{
+    display: flex;
+    justify-content: center;
+    gap: 35px;
+    width: 70%;
+    margin: 30px 0px;
+}
+.Express-png>img{
+    width: 600px;
+    border-radius: 7px;
+}
+.Express-d{
+    text-align: left;
+}
+.Express-d>p{
+    margin: 10px 0px;
+    font-family: apercu;
+    font-size: 1.6rem;
+    color: var(--gray-text);
+}
+/* express section ended */
+
+/* location section started */
+.location-section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 60px 0px; 
+
+}
+.location-parent{
+    
+    display: flex;
+    justify-content: center;
+    gap: 35px;
+    width: 100%;
+    margin: 30px 0px;
+    /* flex-wrap: wrap; */
+}
+.location-child{
+    text-align: center;
+    padding: 20px;
+}   
+.location-child>img{
+    width: 400px;
+    border-radius: 7px;
+    height: 200px;
+}
+.location-child>.red-p{
+    text-align: left;
+    color: var(--highlight-text);
+    letter-spacing: 0.5rem;
+    font-size: 1.6rem;
+    line-height: 20px;
+    font-weight: 500;
+    font-family: apercu;
+    text-transform: uppercase;
+}
+.location-child>h1{
+    font-family: inter;
+    font-size: 2.5rem;
+    margin: 15px 0px 10px 0px;
+    font-weight: 500;
+}
+.location-child>span{
+    font-family: apercu;
+    font-size: 1.6rem;
+    color: var(--gray-text);
+}
+.location-child>p{
+    font-family: apercu;
+    font-size: 1.4rem;
+    color: var(--gray-text);
+    margin: 8px 0px;
+}
+
+.location-child>a{
+    
+    text-decoration: none;
+    color: white;
+    font-family: apercu;
+    font-size: 1.4rem;
+    border: 1px solid white;
+    padding: 10px 15px;
+    border-radius: 35px;
+    transition: 0.3s;
+}
+.location-child>a>i{
+    background-color: white;
+    color: #ed1c24;
+    padding: 10px ;
+}
+.location-child >a{
+    font-size: 1.6rem;
+    color: var(--white-text);
+    background-color: transparent;
+    border: 1px solid white;
+    border-radius: 40px;
+    padding: 15px 12px;
+    text-decoration: none;
+    
+    
+}
+.location-child a span{
+    background-color: white;
+    border-radius: 20px;
+    padding: 5px;
+    color: #d81310;
+}
+
+/* location section ended */
+/* village section started  */
+.village-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 60px 0px; 
+}
+.village-section>h1{
+    font-family: inter;
+    font-size: 3.2rem;
+    margin: 50px 0px 10px 0px;
+    font-weight: 500;
+}
+.village-parent{
+    display: flex;
+    justify-content: center;
+    gap: 35px;
+    width: 70%;
+    margin: 30px 0px;
+}
+.village-child{
+    text-align: left;
+}
+.village-child > span{
+    font-family: apercu;
+    font-size: 1.6rem;
+    color: var(--highlight-text);
+    letter-spacing: 0.5rem;
+    line-height: 20px;
+    font-weight: 500;
+    text-transform: uppercase;
+}
+.village-child>p{
+    margin: 10px 0px;
+    font-family: apercu;
+    font-size: 1.6rem;
+    color: var(--gray-text);
+}
+/* village section ended */

@@ -1,0 +1,88 @@
+@font-face {
+    font-family: "inter";
+    src: url(../Assets/fonts/Inter/static/Inter_18pt-Regular.ttf);
+}
+
+@font-face {
+    font-family: "apercu";
+    src: url(../Assets/fonts/apercu/apercu_regular_pro.otf);
+}
+
+@font-face {
+    font-family: "futurak";
+    src: url(../Assets/fonts/futurak/futurak.ttf);
+}
+
+@font-face {
+    font-family: "butler";
+    src: url(../Assets/fonts/Butler/Butler_Regular.otf);
+}
+
+:root{
+    --bg-red:#ed1c24;
+    --bg-black:#000;
+    --bg-gray:#0f0f0f;
+    --highlight-text:#d81310;
+    --white-text:#ffffff;
+    --gray-text:#b4b4b4;
+}
+.products{
+    display: flex;
+    justify-content: center;
+    background-color: var(--bg-black);
+    gap: 30px;
+    padding: 12px 12px;
+}
+.container{
+    padding: 10px;
+    border: 1px solid gray;
+    width: 600px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+  
+ 
+}
+.container>img{
+    
+    
+    width: 100%;  /* Responsive */
+  height: auto;
+  transition: transform 0.4s ease, filter 0.4s ease;
+
+}
+.container > img:hover{
+     transform: scale(1.1); /* 10% bigger */
+  filter: brightness(1.1); /* Optional: slight brightness for effect */
+}
+
+
+/* information section started */
+.information{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding: 60px 20px;
+    background-color: var(--bg-black);
+    color: white;
+}
+
+.information>h1{
+    font-family: bulter;
+    font-size: 3rem;
+    margin: 20px 10px;
+    font-weight: 800;
+}
+.information>h2{
+    font-family: inter;
+    font-weight: 500;
+    font-size: 2rem;
+    margin: 20px 10px;
+}
+.information>p{
+    font-family: apercu;
+    color: var(--gray-text);
+    font-size: 1.4rem;
+    margin: 10px ;
+}
