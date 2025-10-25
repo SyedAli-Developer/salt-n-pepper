@@ -7,6 +7,7 @@
     <title>Snp Main</title>
     <link rel="stylesheet" href="./styles/style.css">
     <link rel="stylesheet" href="./styles/utility.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css">
 </head>
 
 <body>
@@ -30,10 +31,30 @@
 
     <!-- main started... -->
     <main>
-        <section class="big-image">
-            <img src="./Assets/images/big-image.webp" alt="">
-        </section>
-
+        <div id="carouselExampleAutoplaying" class="carousel slide">
+  <div class="carousel-indicators">
+    <button type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+    <button type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide-to="1" aria-label="Slide 2"></button>
+    
+  </div>
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="./Assets/images/big-image.webp  " class="d-block w-100" alt="...">
+    </div>
+    <div class="carousel-item">
+      <img src="https://static.tossdown.com/images/ac51af11-090c-49e8-9296-472de72fc5cb.webp" class="d-block w-100" alt="...">
+    </div>
+    
+  </div>
+  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+</div>
         <section class="welcome text-center">
             <h1>Welcome to <span class="snp-big">Salt'n Pepper</span><br />
                 Restaurants! Our Brands
@@ -74,14 +95,16 @@
                 Restaurant Franchises
             </h1>
 
-            <p>Each of our franchises are individually managed. For further details, kindly contact them directly.</p>
+            <p>Each of our franchises are individually managed. For further details, kindly contact them directly.
+            </p>
 
             <div class="dox">
                 <div class="description">
                     <h2 class="high-light">ISLAMABAD</h2>
                     <h1><span class="snp-mid">Salt'n Pepper</span> Restaurant</h1>
                     <p>
-                        <span><i class="fa-solid fa-location-dot"></i></span>&nbsp; Plot# 55, Shabbir Plaza, Blue Area,
+                        <span><i class="fa-solid fa-location-dot"></i></span>&nbsp; Plot# 55, Shabbir Plaza, Blue
+                        Area,
                         F-6, Islamabad
                         <br />
                         <br />
@@ -152,7 +175,8 @@
                     <img src="./Assets/images/sargodha.webp" alt="">
                     <h2 class="high-light-mini">SARGODHA</h2>
                     <h1><span class="snp-small">Salt'n Pepper</span> Express</h1>
-                    <p><span><i class="fa-solid fa-location-dot"></i></span>Opposite Sargodha Arts Council Babar Road
+                    <p><span><i class="fa-solid fa-location-dot"></i></span>Opposite Sargodha Arts Council Babar
+                        Road
                     </p>
                     <br />
                     <br />
@@ -166,7 +190,8 @@
                     <img src="./Assets/images/jhelum.webp" alt="">
                     <h2 class="high-light-mini">JHELUM</h2>
                     <h1><span class="snp-small">Salt'n Pepper</span> Express</h1>
-                    <p><span><i class="fa-solid fa-location-dot"></i></span>Opposite Sargodha Arts Council Babar Road
+                    <p><span><i class="fa-solid fa-location-dot"></i></span>Opposite Sargodha Arts Council Babar
+                        Road
                     </p>
                     <br />
                     <br />
@@ -180,7 +205,8 @@
                     <img src="./Assets/images/faisal town.webp" alt="">
                     <h2 class="high-light-mini">FAISAL TOWN</h2>
                     <h1><span class="snp-small">Salt'n Pepper</span> Express</h1>
-                    <p><span><i class="fa-solid fa-location-dot"></i></span>Opposite Sargodha Arts Council Babar Road
+                    <p><span><i class="fa-solid fa-location-dot"></i></span>Opposite Sargodha Arts Council Babar
+                        Road
                     </p>
                     <br />
                     <br />
@@ -211,7 +237,8 @@
                     <img src="./Assets/images/bahira-town.webp" alt="">
                     <h2 class="high-light-mini">BAHRIA TOWN</h2>
                     <h1><span class="snp-small">Salt'n Pepper</span> Express</h1>
-                    <p><span><i class="fa-solid fa-location-dot"></i></span>Arwa Heights Building 19 Bahria Town Lahore
+                    <p><span><i class="fa-solid fa-location-dot"></i></span>Arwa Heights Building 19 Bahria Town
+                        Lahore
                     </p>
                     <br />
                     <br />
@@ -315,7 +342,8 @@
                     <h2 class="high-light">GUJRANWALA</h2>
                     <h1><span class="snp-mid">Salt'n Pepper</span> Village</h1>
                     <p>
-                        <span><i class="fa-solid fa-location-dot"></i></span>&nbsp;Adjacent to Rida Marquees /DHA Main
+                        <span><i class="fa-solid fa-location-dot"></i></span>&nbsp;Adjacent to Rida Marquees /DHA
+                        Main
                         Gate, GT Road Gujranwala
                         <br />
                         <br />
@@ -454,5 +482,6 @@
 
 </body>
 <script src="https://kit.fontawesome.com/0b93ff58c6.js" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
 
 </html>
